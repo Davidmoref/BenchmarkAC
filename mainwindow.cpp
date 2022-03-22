@@ -14,3 +14,17 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
+void MainWindow::on_busqueda_clicked()
+{
+    searchwindow->show();
+    this->hide();
+}
+
+
+void MainWindow::on_sepia_clicked()
+{
+    sepiawindow->show();
+    this->hide();
+}
+

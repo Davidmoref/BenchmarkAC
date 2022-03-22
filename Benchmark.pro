@@ -10,13 +10,19 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    searchwindow.cpp \
+    sepiawindow.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    searchwindow.h \
+    sepiawindow.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    searchwindow.ui \
+    sepiawindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
